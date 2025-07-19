@@ -1,0 +1,27 @@
+.image-box {
+    text-align: center;
+    background: lightgreen;
+    padding: 25px;
+    border: 5px solid;
+    border-radius: 45px;
+}
+.image-box img{
+    width: 100%;
+    max-width: 490px;
+}
+.image-box1 img {
+    width: 100%;
+    max-width: 395px;
+}
+.section-2 {
+    float: left;
+    margin: 50px;
+}
+.image-box1 {
+    text-align: center;
+}
+button {
+    padding: 10px;
+    background: #e39f9f;
+   
+}

@@ -1,0 +1,244 @@
+.top-bar,
+.navbar {
+    background-color: #1E1E20 !important; 
+}
+.contact-info .bi {
+    color: #F84E1D !important; 
+}
+.social-media a:hover {
+    color: #F84E1D !important; 
+}
+.navbar-nav .nav-link:hover {
+    color: #F84E1D !important;
+}
+.btn-link:hover {
+    color: #F84E1D !important; 
+}
+.btn-warning {
+    background-color: #F84E1D !important;
+    border-color: #F84E1D !important; 
+}
+
+.btn-warning:hover {
+    background-color: #db4419 !important; 
+    border-color: #db4419 !important; 
+}
+.dropdown-menu {
+    background-color: #1E1E20; 
+    border: none;
+}
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #F84E1D; 
+    color: #ffffff; 
+}
+.carousel-inner img {
+    width: 100%;
+    /* max-width: 1000px; */
+    max-height: 800px;
+    position: relative;
+}
+.row-3 .col-sm-3{
+    border: gray  2px solid;
+    border-radius: 10px;
+}
+.row-3 .col-sm-3 {
+    border: gray  2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 78px;
+    margin-left: 100px;
+}
+.heading-3{
+    display: flex;
+}
+.row-3 {
+    display: flex;
+}
+/*
+.left-pic img {
+    width: 100%;
+    position: absolute;
+    max-width: 600px;
+}
+.row-4 {
+    margin-top: 155px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.left-pic-above {
+    position: relative;
+}
+.left-pic-above-left {
+    background: #1E1E20;
+}
+.left-pic-above-left p {
+    color: #FFFFFF;
+}
+.left-pic-above-right {
+    background-color: #F84E1D;
+}
+.left-pic-above-right p {
+    color: white;
+}*/
+.left-pic {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.left-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+/* This will overlay the stat blocks on the image */
+.left-pic-above {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    z-index: 2;
+}
+
+/* Black box */
+.left-pic-above-left {
+    background-color: #111111;
+    color: white;
+    padding: 20px 25px;
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    margin-right: 336px;
+    margin-left: 68px;
+    margin-bottom: 28px;
+}
+
+/* Orange box */
+.left-pic-above-right {
+    background-color: #F84E1D;
+    color: white;
+    padding: 20px 25px;
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+}
+    .row-4 {
+    margin-top: 155px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.section-3{
+  background: linear-gradient(to bottom, #4b2818 0%, #1a1a1a 60%, #0e0e0e 100%);
+
+}
+.para{
+    color: #6F7C84;
+}
+.btn-2 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn-2 {
+    border: 2px solid white;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+}
+.row-4 {
+    display: flex;
+    padding-top: 150px;
+}
+.row-4 {
+    display: flex;
+    gap: 250px;  /* This creates 100px space between columns */
+}
+.btn-2:hover {
+    background: #F84E1D;
+}
+.carousel-item {
+    position: relative;
+}
+
+/* Text block positioned over the image */
+.information {
+    position: absolute;
+    top: 20%;              /* Pushes text down from the top of the image */
+    left: 10%;             /* Pushes text right from the left edge */
+    z-index: 2;            /* Ensures it sits above the image */
+    color: white;          /* White text for better contrast */
+    max-width: 600px;      /* Restricts how wide the text block becomes */
+    font-size: 20px;       /* Base font size */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Paragraph spacing inside the block */
+.information p {
+    margin-bottom: 10px;
+}
+
+/* Style for the "Our services" button */
+.btn-1 {
+    border: 2px solid white;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn-1:hover {
+    background: #F84E1D;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.row-5{
+    padding-top: 40px;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    border-radius: 18px;
+}
+.row-5 .col-xl-3 {
+    margin-left: 36px;
+    background-color: #1E1E20;
+    height: 279px;
+}
+.btn-3 a{
+    text-decoration: none;
+    color: #F84E1D;
+    padding-left: 15px;
+}
+.information-1 {
+    background-color: black;
+    border-radius: 28px;
+    margin: 19px;
+}
+.logo {
+    padding-left: 31px;
+    align-items: center;
+}
+.blocks {
+    display: flex;
+    margin-right: -349px;
+}

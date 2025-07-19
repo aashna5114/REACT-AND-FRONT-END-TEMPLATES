@@ -1,0 +1,37 @@
+.nav {
+    background-color: blue;
+    display: flex;
+    align-items: center;   
+}
+.btn p{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn ul li{
+    text-decoration: none;
+    float: left;
+}
+.btn img{
+    width: 100%;
+    max-width: 125px;
+}
+.playerinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.player img {
+    width: 500px;
+    height: 350px;
+}
+.playerinfo p {
+    position: relative;
+    margin: -50px 0px 0px 0px;
+}
+.player {
+    width: 500px;
+    margin: 28px;
+}
+.btn{
+    padding: 10px;
+
+}

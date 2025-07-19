@@ -1,0 +1,60 @@
+.top-bar,
+.navbar {
+    background-color: #1E1E20 !important; 
+}
+.contact-info .bi {
+    color: #F84E1D !important; 
+}
+.social-media a:hover {
+    color: #F84E1D !important; 
+}
+.navbar-nav .nav-link:hover {
+    color: #F84E1D !important;
+}
+.btn-link:hover {
+    color: #F84E1D !important; 
+}
+.btn-warning {
+    background-color: #F84E1D !important;
+    border-color: #F84E1D !important; 
+}
+
+.btn-warning:hover {
+    background-color: #db4419 !important; 
+    border-color: #db4419 !important; 
+}
+.dropdown-menu {
+    background-color: #1E1E20; 
+    border: none;
+}
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #F84E1D; 
+    color: #ffffff; 
+}
+.carousel-inner img {
+    width: 100%;
+    /* max-width: 1000px; */
+    max-height: 800px;
+    position: relative;
+}
+.row-3 .col-sm-3{
+    border: gray  2px solid;
+    border-radius: 10px;
+}
+.row-3 .col-sm-3 {
+    border: gray  2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 78px;
+    margin-left: 100px;
+}
+.heading-3{
+    display: flex;
+}
+.row-3 {
+    display: flex;
+}

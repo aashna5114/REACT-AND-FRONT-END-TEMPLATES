@@ -1,0 +1,96 @@
+.nav {
+    background-color: blue;
+    display: flex;
+    align-items: center;   
+}
+.btn p{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn ul li{
+    text-decoration: none;
+    float: left;
+}
+.btn img{
+    width: 100%;
+    max-width: 125px;
+}
+.playerinfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.player img {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    display: block;
+}
+.playerinfo p {
+    position: relative;
+    margin-top: -45px;
+}
+.playerinfo p::after{
+background-color: bisque;
+}
+.player {
+    width: 500px;
+    margin: 28px;
+}
+.btn{
+    padding: 10px;
+
+}
+.player {
+position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 500px;
+  margin: 28px;
+}
+.para1 {
+  position: absolute;
+  background: rgb(245, 244, 244);
+  color: rgb(15, 15, 15);
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.player:hover .para1 {
+  opacity: 0.5;
+  transform: translateY(-85%);
+}
+.para1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 244, 244, 0.9);
+  color: rgb(15, 15, 15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+.player:hover .para1 {
+  opacity: 0.5;
+}
+div.original {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border: 4px solid black;
+    perspective: 80px;
+}
+div.rotate {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: rotate3d(1, 1, 1, 30deg);
+}
+.abc{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: width 2s;
+}

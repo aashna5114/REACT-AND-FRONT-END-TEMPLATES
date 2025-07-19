@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elever</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="day5.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-bar bg-dark text-white py-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="contact-info">
+                    <span class="me-3"><i class="bi bi-telephone-fill text-warning me-1"></i> (555) 123-4567, (888)
+                        123-999,</span>
+                    <span><i class="bi bi-envelope-fill text-warning me-1"></i> elever@info.com</span>
+                </div>
+                <div class="social-media d-flex align-items-center">
+                    <span class="me-2">Follow Us On:</span>
+                    <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Elever Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="homeDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="#">Service 1</a></li>
+                                <li><a class="dropdown-item" href="#">Service 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="pagesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                <li><a class="dropdown-item" href="#">Page 1</a></li>
+                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="projectDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Project
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="projectDropdown">
+                                <li><a class="dropdown-item" href="#">Project A</a></li>
+                                <li><a class="dropdown-item" href="#">Project B</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="shopDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                                <li><a class="dropdown-item" href="#">Shop Item 1</a></li>
+                                <li><a class="dropdown-item" href="#">Shop Item 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="blogDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                                <li><a class="dropdown-item" href="#">Blog Post 1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Post 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-link text-white me-3" type="button"><i class="bi bi-search"></i></button>
+                        <a href="#" class="btn btn-warning text-white rounded-0 px-3 py-2 d-flex align-items-center">
+                            Get a Quote <i class="bi bi-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/majdoor1.jpg" class="d-block w-100" alt="...">
+                <div class="information">
+                    <p style="color: #F84E1D;">Building the better future.</p>
+                    <p
+                        style="font-size: 100px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: aliceblue;">
+                        Your Vision, OurExpertise</p>
+                    <p>Let's Build It</p>
+                    <p>From groundbreaking to handover, we deliver construction projects that
+                        combine durability, design, and dedication.</p>
+                    <div class="btn-1">
+                        <a href="">Our services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/majdoor2.jpeg" class="d-block w-100" alt="...">
+                <div class="information">
+                    <p style="color: #F84E1D;">Building the better future.</p>
+                    <p
+                        style="font-size: 70px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: aliceblue;">
+                        Your Trusted Partner in
+                        Modern Construction</p>
+                    <p>Let's Build It</p>
+                    <p>From groundbreaking to handover, we deliver construction projects that
+                        combine durability, design, and dedication.</p>
+                    <div class="btn-1">
+                        <a href="">Our services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/majdoor3.jpeg" class="d-block w-100" alt="...">
+                <div class="information">
+                    <p style="color: #F84E1D;">Building the better future.</p>
+                    <p
+                        style="font-size: 80px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: aliceblue;">
+                        Quality Builds That
+                        Stand the Test of Time</p>
+                    <p>Let's Build It</p>
+                    <p>From groundbreaking to handover, we deliver construction projects that
+                        combine durability, design, and dedication.</p>
+                    <div class="btn-1">
+                        <a href="">Our services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="section-2">
+        <div class="row-3">
+            <div class="col-sm-3">
+                <div class="upper">
+                    <img src="images/Picture1.png" alt="">
+
+                </div>
+                <div class="heading-3">
+                    <p
+                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                        <b>1,200</b>
+                    </p>
+                    <p
+                        style="color: #F84E1D; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                        +</p>
+
+                </div>
+                <div class="info">
+                    <p
+                        style=" text-align:center;font-size: 20px ;#9c9c9c;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Over 1,000 projects successfully delivered, from residential homes to large developments…</p>
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="upper">
+                    <img src="images/Picture2.png" alt="">
+
+                </div>
+                <div class="heading-3">
+                    <p
+                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                        <b>85</b>
+                    </p>
+                    <p
+                        style="color: #F84E1D; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                        %</p>
+
+                </div>
+                <div class="info">
+                    <p
+                        style=" text-align:center;font-size:  20px; #9c9c9c;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        5% of clients return for future projects, demonstrating our commitment to quality…</p>
+
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="upper">
+                    <img src="images/Picture3.png" alt="">
+
+                </div>
+                <div class="heading-3">
+                    <p
+                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                        <b>20</b>
+                    </p>
+                    <p
+                        style="color: #F84E1D; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 80px;">
+                        %</p>
+
+                </div>
+                <div class="info">
+                    <p
+                        style=" text-align:center;font-size:  20px; #9c9c9c;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        Consistent 20% annual revenue growth over the past five years, reflecting our expanding…</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="row-4">
+            <div class="col-xl-4">
+                <div class="left-pic">
+                    <img src="images/leftsidepic.webp" alt="">
+                    <div class="left-pic-above">
+                        <div class="col-xl-4">
+                            <div class="left-pic-above-left">
+                                <p>500+</p>
+                                <p>Complete Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="left-pic-above-right">
+                                <p>48+</p>
+                                <p>Award Winning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="info-company">
+                    <p style="color: #F84E1D;">ABOUT OUR COMPANY</p>
+                    <p style="color: aliceblue; font-size: xx-large;">Delivering our clients more project clarity,
+                        greater insight, and less chaos.</p>
+                    <p class="para">Artificial Intelligence refers to the development of computer systems that can
+                        perform tasks that would typically require human intelligence. It involves the creation of
+                        algorithms and models that enable machines to learn.</p>
+                    <p class="para">There are generally two types of AI: Narrow or Weak AI, which is designed to perform
+                        specific tasks, and General or Strong AI, which possesses human-level intelligence and can
+                        handle a wide range of tasks.</p>
+                    <div class="btn-2">
+                        <a href="">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-5">
+            <p style="color: #F84E1D; font-size: 25px;text-align: center;">What we offer</p>
+            <p style="color: aliceblue;font-size: xx-large;text-align: center;">Explore our services</p>
+            <div class="blocks">
+            <div class="col-xl-3">
+                <div class="logo">
+                   <a href=""><img src="images/logo1.png" alt=""></a>
+                    <p style="color: #28282E; margin-left: 25px;"> SERVICE 01</p>
+                </div>
+                <div class="information-1">
+                    <p style="color:aliceblue; font-size: larger;text-align: center;">Residential Construction </p>
+                    <p style="color: #7C7C84;">From foundation to finish , we bring your dream life to home with expert craftsmanship,modern
+                        design and detailed attention.</p>
+                    <div class="btn-3">
+                        <a href="">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="logo">
+                   <a href=""><img src="images/logo1.png" alt=""></a>
+                    <p style="color: #28282E; margin-left: 25px;"> SERVICE 01</p>
+                </div>
+                <div class="information-1">
+                    <p style="color:aliceblue; font-size: larger;text-align: center;">Residential Construction </p>
+                    <p style="color: #7C7C84;">From foundation to finish , we bring your dream life to home with expert craftsmanship,modern
+                        design and detailed attention.</p>
+                    <div class="btn-3">
+                        <a href="">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="logo">
+                   <a href=""><img src="images/logo1.png" alt=""></a>
+                    <p style="color: #28282E; margin-left: 25px;"> SERVICE 01</p>
+                </div>
+                <div class="information-1">
+                    <p style="color:aliceblue; font-size: larger;text-align: center;">Residential Construction </p>
+                    <p style="color: #7C7C84;">From foundation to finish , we bring your dream life to home with expert craftsmanship,modern
+                        design and detailed attention.</p>
+                    <div class="btn-3">
+                        <a href="">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
